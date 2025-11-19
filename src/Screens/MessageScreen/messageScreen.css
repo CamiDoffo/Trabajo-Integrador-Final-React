@@ -1,0 +1,22 @@
+.message-screen{
+    display: flex;
+    height: 100vh;
+}
+
+.message-screen__contact-list-container{
+    width: 350px;
+    height: 100%;
+}
+.message-screen__messages-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    padding-bottom: 100px;
+
+}
+.messages-form-container{
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+}

@@ -1,0 +1,56 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    /* padding: 0px 32px; */
+    font-family: sans-serif;
+    position: relative;
+    width: 100%;
+}
+
+header h2{
+    margin-left: 32px;
+}
+header .nav-desktop{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-right: 32px;
+}
+
+header .nav-desktop a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.btn-menu{
+    display: none;
+}
+
+.nav-mobible{
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    header .nav-desktop{
+        display: none;
+    }
+    .nav-mobible{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 16px;
+        padding: 32px;
+        width: 100vw;
+        position: absolute;
+        top: 70px;
+        background-color: white;
+    }
+    .btn-menu{
+        display: flex;
+        margin-right: 32px;
+    }
+}
