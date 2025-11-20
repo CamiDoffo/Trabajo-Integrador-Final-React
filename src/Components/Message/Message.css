@@ -1,0 +1,16 @@
+.message-container {
+    background-color: aqua;
+    border-radius: 30px;
+    padding: 15px;
+    width: 40%;
+}
+.message-container--right{
+    justify-self: right;
+}
+.message-container--left{
+
+}
+
+.message-timestamp{
+    color: gray;
+}

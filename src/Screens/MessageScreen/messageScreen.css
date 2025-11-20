@@ -1,6 +1,6 @@
 .message-screen{
     display: flex;
-    height: 100vh;
+    height: 85vh;
 }
 
 .message-screen__contact-list-container{

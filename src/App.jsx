@@ -5,11 +5,13 @@ import HomeScreen from './Screens/HomeScreen/HomeScreen'
 import './styles/global.css'
 import ContactListContextProvider from './Context/ContactListContext'
 import ContactDetailContextProvider from './Context/ContactDetailContext'
+import Navbar from './Components/Navbar/Navbar'
 
 function App() {
  
   return (
     <div>
+      <Navbar/>
       <ContactListContextProvider>
         <Routes>
           <Route 
