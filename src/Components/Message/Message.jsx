@@ -3,8 +3,7 @@ import './Message.css'
 function Message(propiedades){
     return(
         <div className={'message-container ' + (propiedades.author === 'YO' ? 'message-container--right' : 'message-container--left')}>
-            <div>
-                <span>{propiedades.author}</span>
+            <div className='message'>
                 <p>{propiedades.content}</p>
                 <span className='message-timestamp'>{propiedades.timestamp}</span>
             </div>

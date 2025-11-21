@@ -1,5 +1,7 @@
 import React, { useContext } from 'react'
 import { ContactListContext } from '../../Context/ContactListContext'
+import ICONS from '../../constants/icons'
+import './NewMessageForm.css'
 
 const NewMessageForm = (props) => {
     console.log(useContext(ContactListContext))
@@ -11,17 +13,18 @@ const NewMessageForm = (props) => {
         props.onCreateNewMessage(
             message_value
         )
+        form.reset()
     }
 
     return (
 
-        <form onSubmit={handleSubmit}>
-            <label htmlFor="mensaje">Enviar mensaje:</label>
-            <textarea id='mensaje' name='mensaje'  />
-            <button>Enviar mensaje</button>
+        <form onSubmit={handleSubmit} className='message-form'>
+            <textarea id='mensaje' name='mensaje' placeholder='Escribe un mensaje'/>
+            <button><ICONS.PaperPlane/></button>
         </form>
 
     )
+    
 }
 
 export default NewMessageForm

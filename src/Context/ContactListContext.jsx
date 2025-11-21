@@ -56,4 +56,3 @@ const ContactListContextProvider = (props) => {
 
 export default ContactListContextProvider
 
-//REDUX = context

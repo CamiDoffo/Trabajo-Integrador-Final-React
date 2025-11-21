@@ -1,5 +1,12 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
     box-sizing: border-box;
+}
+body {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+.links {
+    text-decoration: none;
 }

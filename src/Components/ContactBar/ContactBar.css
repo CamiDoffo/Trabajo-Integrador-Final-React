@@ -1,0 +1,7 @@
+.contact-info{
+    display: flex;
+    align-items: center;
+    img{
+        margin-right: 15px;
+    }
+}
