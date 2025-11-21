@@ -1,16 +1,21 @@
-# React + Vite
+# Trabajo Final Integrador- Desarrollo en React JS
+## Clon de Chat en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un clon de una aplicación de chat, desarrollado con React y CSS nativo.
+El objetivo principal es practicar el manejo de componentes, estados, props y ciclo de vida utilizando useState y useEffect.
 
-Currently, two official plugins are available:
+## Cómo compilar
+Opción 1:
+1. Clonar o descargar este repositorio desde el link de GitHub provisto.
+2. Abrir la carpeta en una terminal
+3. Instalar las dependencias con: 
+*npm install*
+4. Ejecutar en modo desarrollo con: 
+*npm run dev*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Créditos
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Autora: Camila Doffo
+- Año: 2025
+- Curso: Desarrollo en React JS.
+- Módulo 1: Nivelación, Javascript, configuración de entorno; Unidad 1: Antes de React.
