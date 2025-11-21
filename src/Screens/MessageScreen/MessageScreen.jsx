@@ -8,8 +8,7 @@ import ContactList from '../../Components/ContactList/ContactList'
 import './messageScreen.css'
 import { ContactDetailContext } from '../../Context/ContactDetailContext'
 import WhatsAppSpinner from '../../Components/WhatsappSpinner/WhatsappSpinner'
-import SearchBar from '../../Components/SearchBar/SearchBar'
-import ContactBar from '../../Components/ContactBar/contactBar'
+import ContactBar from '../../Components/ContactBar/ContactBar'
 
 function MessageScreen() {
     
