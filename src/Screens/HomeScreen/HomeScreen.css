@@ -27,4 +27,7 @@
     .home-screen__messages-container {
         display: none;
     }
+    .contact-list{
+        width: 100%;
+    }
 }
