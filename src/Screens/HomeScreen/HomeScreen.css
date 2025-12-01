@@ -23,3 +23,8 @@
         font-size: large;
     }
 }
+@media (max-width: 550px) {
+    .home-screen__messages-container {
+        display: none;
+    }
+}
