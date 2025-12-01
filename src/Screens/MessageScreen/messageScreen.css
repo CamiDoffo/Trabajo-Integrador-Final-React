@@ -7,6 +7,13 @@
     width: 400px;
     border-right: 1px solid #e0e0e0;
 }
+
+@media (max-width: 550px) {
+    .message-screen__contact-list-container {
+        display: none;
+    }
+}
+
 .message-screen__messages-container{
     width: 100%;
     display: flex;
