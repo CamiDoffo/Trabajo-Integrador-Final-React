@@ -2,6 +2,7 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 import { DiAndroid, DiCodeigniter } from "react-icons/di";
 import { FaSearch } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
+import { GoX } from "react-icons/go";
 import { HiChatBubbleLeftRight } from "react-icons/hi2";
 import { SlPaperPlane } from "react-icons/sl";
 
@@ -12,7 +13,8 @@ const ICONS = {
     PaperPlane: SlPaperPlane,
     Chat: HiChatBubbleLeftRight,
     Search: FaSearch,
-    Menu: BsThreeDotsVertical
+    Menu: BsThreeDotsVertical,
+    Cross: GoX
 }
 
 export default ICONS
